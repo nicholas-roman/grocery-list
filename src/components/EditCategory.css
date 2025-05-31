@@ -1,0 +1,37 @@
+div#edit-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  display: flex;
+  align-items: flex-start;
+  border: solid;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+div#edit-container {
+  width: 100%;
+  padding: 16px;
+}
+
+div#edit-header {
+  height: 30px;
+} 
+
+button#close-button {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  border: none;
+  background: none;
+}
+
+div#edit-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+  

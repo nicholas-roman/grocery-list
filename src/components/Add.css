@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#add-bar {
+    display: flex;
+}
+
+input#add-item-input {
+    flex: 2;
+    font-size: 1rem;
+}
+
+input#quantity {
+    flex: 2;
+    font-size: 1rem;
+    max-width: 40px;
+}
+
+select#category {
+    width: 40px;
+}
+
+button#add-button {
+    font-size: 1rem;
+    background-color: #f2f2f2;
+}
+
+button#add-button:disabled {
+    opacity: 0.5;
+}
+  
